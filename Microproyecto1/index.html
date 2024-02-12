@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microproyecto1</title>
+    <link rel="stylesheet" rev="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="main.js" defer></script>
+  </head>
+  <body class="body">
+    <!-- This is the header -->
+    <header>
+      <div class="bingo-header">
+        <img
+          src="https://www.shutterstock.com/image-vector/bingo-vector-card-600nw-613829777.jpg"
+          alt=""
+        />
+        <h1>¡Bienvenido al BINGO!</h1>
+      </div>
+    </header>
+    <div class="center-container">
+      <button id="btnComenzar" class="button button-comenzar">
+        QUIERO JUGAR BINGO!
+      </button>
+    </div>
+    <!-- This is the body -->
+    <form id="formJugadores" class="principal hidden">
+      <div id="principal" class="players">
+        <div class="player-menu">
+          <h3>Ingrese los nombres de los 4 jugadores:</h3>
+          <div class="player-names">
+            <input type="text" id="inputJugador1" placeholder="Jugador 1" />
+            <input type="text" id="inputJugador2" placeholder="Jugador 2" />
+            <input type="text" id="inputJugador3" placeholder="Jugador 3" />
+            <input type="text" id="inputJugador4" placeholder="Jugador 4" />
+          </div>
+          <div class="card-size">
+            <h3>Selecciona el tamaño del cartón de bingo:</h3>
+            <div class="sizecard">
+              <input
+                type="number"
+                id="boardSize"
+                class="board-size"
+                min="2"
+                max="10"
+                value="5"
+              />
+            </div>
+          </div>
+          <div class="button-start">
+            <button type="button" id="btnEmpezar" class="button1 button-start">
+              EMPEZAR
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- This is random number and counter -->
+    <section class="numeros hidden">
+      <button type="button" class="button1 button-jugar">JUGAR BINGO</button>
+      <div class="turnos">TURNO: 0</div>
+      <div class="random">B I N G O: esperar para comenzar el juego</div>
+    </section>
+
+    <section id="play" class="play hidden">
+      <div class="jugadores">
+        <button type="button" id="btnJugador1" class="button2 btn-jugador">
+          Jugador 1
+        </button>
+        <button type="button" id="btnJugador2" class="button2 btn-jugador">
+          Jugador 2
+        </button>
+        <button type="button" id="btnJugador3" class="button2 btn-jugador">
+          Jugador 3
+        </button>
+        <button type="button" id="btnJugador4" class="button2 btn-jugador">
+          Jugador 4
+        </button>
+        <div>
+          <div class="carton hidden" id="carton1"></div>
+          <div class="carton hidden" id="carton2"></div>
+          <div class="carton hidden" id="carton3"></div>
+          <div class="carton hidden" id="carton4"></div>
+        </div>
+      </div>
+   <!-- Sección para mostrar los puntajes ESTO NO FUNCIONA--> 
+   <section id="puntajes" class="puntajes hidden">
+    <h2>Puntajes Finales</h2>
+    <div id="puntajeJugador1"></div>
+    <div id="puntajeJugador2"></div>
+    <div id="puntajeJugador3"></div>
+    <div id="puntajeJugador4"></div>
+  </section>
+  <script src="main.js" defer></script>
+  </body>
+</html>

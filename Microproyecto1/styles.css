@@ -1,0 +1,193 @@
+
+.bingo-header {
+    display: flex;
+    
+    width: 100%;
+        
+}
+.bingo-header h1{
+    color: rgb(247, 11, 105);
+    text-align:center;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 50px;
+}
+
+.bingo-header img { 
+
+    width: 20%;
+    height: 20%;
+    margin-left: 4%;    
+}
+
+.center-container {
+    text-align: center;
+  }
+.button{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    background-color: rgb(247, 11, 105);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    align-items: center;
+}
+.button:hover {
+    background-color: rgb(236, 14, 103);;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active{
+    background-color: #9d2756;
+  box-shadow: 0 5px #c9c9c9;
+  transform: translateY(7px);
+}
+
+.button-start{
+    text-align: right;
+    margin-right: 300px;
+}
+.button1 {
+    width: 200x; 
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    background-color: rgb(247, 11, 105);; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+    
+.button1:hover {
+    background-color: rgb(247, 85, 150); 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.player-menu input,
+.player-menu button {
+  margin: 5px;
+}
+
+.player-names {
+
+text-align: center;
+}
+
+.player-menu h3 {
+    text-align: center;
+    color: rgb(247, 11, 105);
+    margin-top: 20px;
+    font-size: 30px;
+}
+.card-size h3 {
+    text-align: center;
+    color: rgb(247, 11, 105);
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.player-names input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px; 
+}
+
+  .player-names input[type="text"]::placeholder {
+    font-size: 16px; 
+    color: #999; 
+  }
+  
+  .button-sizecard {
+    margin-bottom: 20px; 
+    justify-content: center;
+    width: 100%;
+  }
+
+  .board-size {
+    width: 70px; 
+    text-align: center;
+    font-size: 18px;
+    
+}
+.card-size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button2{
+    
+    width: 200x; 
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    background-color: rgb(247, 11, 105);; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+
+}
+    
+.button2:hover {
+    background-color: rgb(247, 85, 150); 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.jugadores{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none ;
+  }
+
+  .row {
+    display: flex;
+
+  }
+  
+  .cell {
+ 
+    flex: 1;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .selected {
+  
+    background-color:rgb(247, 11, 105);
+}
+
+.turnos{
+
+    font-size: larger;
+    color: rgb(247, 11, 105);
+    padding: 20px 15px 20px 15px;
+}
+
+.random{
+
+    font-size: larger;
+    color: rgb(247, 11, 105);
+    padding: 20px 15px 20px 15px;
+}
+
+/* .puntajes {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .puntajes h2 {
+    color: rgb(247, 11, 105);
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .puntajes div {
+    margin-bottom: 5px;
+  } */
